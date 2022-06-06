@@ -4,12 +4,12 @@ public class Main {
     public static void main(String[] args) {
         
         int[] array = new int[10];
-
         System.out.print("array = { ");
         for (int i : array) {
             System.out.print(i + " ");
         }
         System.out.println("}");
+        System.out.println();
 
         Strange[] array1 = new Strange[10];
         System.out.print("array1 = { ");
@@ -33,7 +33,7 @@ public class Main {
                 };
         System.out.println("array2 = { ");
         for (Strange i : array2) {
-            System.out.println(i + " ");
+            System.out.println("\t" + i + " ");
         }
         System.out.println("}");
 
