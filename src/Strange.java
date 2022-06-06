@@ -23,4 +23,12 @@ public class Strange {
     public void setValue(int value) {
         this.value = value;
     }
+
+    @Override
+    public String toString() {
+        return this.getClass().getName() + "{" +
+                "name='" + name + '\'' +
+                ", value=" + value +
+                '}';
+    }
 }
